@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14028812100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be in the login page",
+            "match": {
+              "location": "StepDef1.user_should_be_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-14T05:41:27.696Z",
+        "line": 6,
+        "name": "To verify the login functionality using invalid credentials",
+        "description": "",
+        "id": "to-verify-the-login-validity;to-verify-the-login-functionality-using-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 562565300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter the username and password",
+            "match": {
+              "location": "StepDef1.user_should_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Cheese",
+                  "Macroni"
+                ]
+              },
+              {
+                "cells": [
+                  "Avacado",
+                  "Burst"
+                ]
+              },
+              {
+                "cells": [
+                  "Maple",
+                  "Syrup"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19861844100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click login",
+            "match": {
+              "location": "StepDef1.user_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741466900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should navigate to the login attempt page",
+            "match": {
+              "location": "StepDef1.user_should_navigate_to_the_login_attempt_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10881506200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be in the login page",
+            "match": {
+              "location": "StepDef1.user_should_be_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-14T05:42:02.920Z",
+        "line": 14,
+        "name": "To verify the Create acoount functionality",
+        "description": "",
+        "id": "to-verify-the-login-validity;to-verify-the-create-acoount-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2465402000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click the Create new account",
+            "match": {
+              "location": "StepDef1.user_has_to_click_the_Create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24077300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should have navigated to the create account page",
+            "match": {
+              "location": "StepDef1.user_should_have_navigated_to_the_create_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login validity",
+    "description": "",
+    "id": "to-verify-the-login-validity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/1d.feature",
+    "tags": []
+  }
+]
